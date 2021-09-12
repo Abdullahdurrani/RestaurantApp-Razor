@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RestaurantApp-Razor.Data/1.0.0": {
+        "dependencies": {
+          "RestaurantApp-Razor.Core": "1.0.0"
+        },
+        "runtime": {
+          "RestaurantApp-Razor.Data.dll": {}
+        }
+      },
+      "RestaurantApp-Razor.Core/1.0.0": {
+        "runtime": {
+          "RestaurantApp-Razor.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestaurantApp-Razor.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RestaurantApp-Razor.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

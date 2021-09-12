@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "RestaurantApp-Razor.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/RestaurantApp-Razor.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantApp-Razor.Core.dll": {}
+        }
+      },
+      "RestaurantApp-Razor.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "RestaurantApp-Razor.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestaurantApp-Razor.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestaurantApp-Razor.Data.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RestaurantApp-Razor.Core/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantApp-Razor.Core/RestaurantApp-Razor.Core.csproj",
+      "msbuildProject": "../RestaurantApp-Razor.Core/RestaurantApp-Razor.Core.csproj"
+    },
+    "RestaurantApp-Razor.Data/1.0.0": {
+      "type": "project",
+      "path": "../RestaurantApp-Razor.Data/RestaurantApp-Razor.Data.csproj",
+      "msbuildProject": "../RestaurantApp-Razor.Data/RestaurantApp-Razor.Data.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "RestaurantApp-Razor.Data >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Abdullah\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\abdullah\\Development\\C#\\Asp.net core\\Pluralsight\\Asp.net Core Fundamentals\\RestaurantApp-Razor\\RestaurantApp-Razor\\RestaurantApp-Razor.csproj",
+      "projectName": "RestaurantApp-Razor",
+      "projectPath": "D:\\abdullah\\Development\\C#\\Asp.net core\\Pluralsight\\Asp.net Core Fundamentals\\RestaurantApp-Razor\\RestaurantApp-Razor\\RestaurantApp-Razor.csproj",
+      "packagesPath": "C:\\Users\\Abdullah\\.nuget\\packages\\",
+      "outputPath": "D:\\abdullah\\Development\\C#\\Asp.net core\\Pluralsight\\Asp.net Core Fundamentals\\RestaurantApp-Razor\\RestaurantApp-Razor\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Abdullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "D:\\abdullah\\Development\\C#\\Asp.net core\\Pluralsight\\Asp.net Core Fundamentals\\RestaurantApp-Razor\\RestaurantApp-Razor.Data\\RestaurantApp-Razor.Data.csproj": {
+              "projectPath": "D:\\abdullah\\Development\\C#\\Asp.net core\\Pluralsight\\Asp.net Core Fundamentals\\RestaurantApp-Razor\\RestaurantApp-Razor.Data\\RestaurantApp-Razor.Data.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

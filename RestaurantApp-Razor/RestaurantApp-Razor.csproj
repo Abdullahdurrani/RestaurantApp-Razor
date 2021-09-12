@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>RestaurantApp_Razor</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantApp-Razor.Data\RestaurantApp-Razor.Data.csproj" />
+  </ItemGroup>
+
+</Project>
