@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp-Razor", "RestaurantApp-Razor\RestaurantApp-Razor.csproj", "{9A2E81AD-D15C-4E85-BC1C-8C5E051AF45A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp-Razor", "RestaurantApp-Razor\RestaurantApp-Razor.csproj", "{9A2E81AD-D15C-4E85-BC1C-8C5E051AF45A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp-Razor.Core", "RestaurantApp-Razor.Core\RestaurantApp-Razor.Core.csproj", "{72F405EE-CD37-4F1D-B48D-84C2B174412E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp-Razor.Core", "RestaurantApp-Razor.Core\RestaurantApp-Razor.Core.csproj", "{72F405EE-CD37-4F1D-B48D-84C2B174412E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantApp-Razor.Data", "RestaurantApp-Razor.Data\RestaurantApp-Razor.Data.csproj", "{4F46BC24-6260-4D25-B643-8B09570A6132}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantApp-Razor.Data", "RestaurantApp-Razor.Data\RestaurantApp-Razor.Data.csproj", "{4F46BC24-6260-4D25-B643-8B09570A6132}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

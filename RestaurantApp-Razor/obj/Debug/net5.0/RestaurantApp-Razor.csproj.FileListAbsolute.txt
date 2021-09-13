@@ -43,3 +43,5 @@ D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\Re
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\ref\RestaurantApp-Razor.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.pdb
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.genruntimeconfig.cache
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\Razor\Pages\Restaurants\Detail.cshtml.g.cs
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\Razor\Pages\Restaurants\NotFound.cshtml.g.cs

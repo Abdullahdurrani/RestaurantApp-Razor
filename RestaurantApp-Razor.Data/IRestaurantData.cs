@@ -7,6 +7,7 @@ namespace RestaurantApp_Razor.Data
     public interface IRestaurantData
     {
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
+        Restaurant GetById(int id);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -23,6 +24,11 @@ namespace RestaurantApp_Razor.Data
             };
         }
 
+        public Restaurant GetById(int id)
+        {
+            // returns single restaurant or default (null)
+            return restaurants.SingleOrDefault(r => r.Id == id);
+        }
 
         public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
