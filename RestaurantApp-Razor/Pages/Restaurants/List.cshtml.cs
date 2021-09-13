@@ -21,11 +21,13 @@ namespace RestaurantApp_Razor.Pages.Restaurants
         //to get restaurants
         public IEnumerable<Restaurant> Restaurants { get; set; }
 
+        [BindProperty(SupportsGet =true)] // tells this property receives info from request
+        public string SearchTerm { get; set; }
+
         public void OnGet()
         {
-            // gets all restaurants objects
-            // GetAll returns all restaurants
-            Restaurants = restaurantData.GetAll();
+            // gets all restaurants objects or those searched
+            Restaurants = restaurantData.GetRestaurantsByName(SearchTerm);
         }
     }
 }

@@ -1,15 +1,12 @@
 ﻿using RestaurantApp_Razor.Core;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RestaurantApp_Razor.Data
 {
     public interface IRestaurantData
     {
-        IEnumerable<Restaurant> GetAll();
+        IEnumerable<Restaurant> GetRestaurantsByName(string name);
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -27,9 +24,11 @@ namespace RestaurantApp_Razor.Data
         }
 
 
-        public IEnumerable<Restaurant> GetAll()
+        public IEnumerable<Restaurant> GetRestaurantsByName(string name = null)
         {
             return from r in restaurants
+                   // get all if no parameter is passed or get which matches with name param
+                   where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
                    orderby r.Name
                    select r;
         }

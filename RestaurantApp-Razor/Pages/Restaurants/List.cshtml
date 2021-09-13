@@ -3,6 +3,19 @@
 @{
 }
 
+<h2>Restaurants</h2>
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" />
+            <span class="input-group-button">
+                <button class="btn btn-primary">Search</button>
+            </span>
+        </div>
+    </div>
+</form>
+
 <table class="table">
     @foreach (var restaurant in Model.Restaurants)
     {
