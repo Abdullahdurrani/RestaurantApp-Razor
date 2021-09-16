@@ -12,13 +12,17 @@ namespace RestaurantApp_Razor.Pages.Restaurants
     public class DetailModel : PageModel
     {
         private readonly IRestaurantData restaurantData;
+        public Restaurant Restaurant { get; set; }
+
+        // tempdata shows temporary messages and then disappears
+        [TempData]
+        public string Message { get; set; }
 
         public DetailModel(IRestaurantData restaurantData)
         {
             this.restaurantData = restaurantData;
         }
 
-        public Restaurant Restaurant { get; set; }
         public IActionResult OnGet(int restaurantId)
         {
             // retreives the restaurant by the id passed 

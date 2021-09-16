@@ -1,4 +1,5 @@
-﻿@page "{restaurantId:int}"
+﻿@page "{restaurantId:int?}" 
+        @* id is set optional because we are using same page for create functionality *@
 @model RestaurantApp_Razor.Pages.Restaurants.EditModel
 @{
 }
@@ -25,9 +26,9 @@
     <div class="form-group">
         <label asp-for="Restaurant.Cuisine" class="font-weight-bold"></label>
         @*
-        allows user to select from given options
-        asp-items is Collection of SelectListItem, populates option elements
-        Model is not required for asp-for but is required for asp-items
+            allows user to select from given options
+            asp-items is Collection of SelectListItem, populates option elements
+            Model is not required for asp-for but is required for asp-items
         *@
         <select class="form-control" asp-for="Restaurant.Cuisine" asp-items="Model.Cuisines">
         </select>

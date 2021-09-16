@@ -1,7 +1,12 @@
-﻿@page "{restaurantId:int}" // Restaurants/Detail/restaurantId 
+﻿@page "{restaurantId:int}" // Restaurants/Detail/restaurantId
 
 @model RestaurantApp_Razor.Pages.Restaurants.DetailModel
 @{
+}
+
+@if (Model.Message != null)
+{
+    <div class="alert alert-info">@Model.Message</div>
 }
 
 <h2>@Model.Restaurant.Name</h2>

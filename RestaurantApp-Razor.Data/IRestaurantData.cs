@@ -8,6 +8,10 @@ namespace RestaurantApp_Razor.Data
     {
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
         Restaurant GetById(int id);
+
+        // for Creating new Restaurant
+        Restaurant Add(Restaurant newRestaurant);
+
         // for OnPost method. Gets updated object and assigns it to the older one
         Restaurant Update(Restaurant updatedRestaurant);
         // similar to SaveChanges in ef core for in memory database. But is not implemented yet
@@ -47,6 +51,16 @@ namespace RestaurantApp_Razor.Data
                    where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
                    orderby r.Name
                    select r;
+        }
+
+        public Restaurant Add(Restaurant newRestaurant)
+        {
+            // Adds to List of restaurants -> will change for database implementation
+            restaurants.Add(newRestaurant);
+
+            // returns max id in restaurants list and adds one to it then assigns it to the newRestaurant
+            newRestaurant.Id = restaurants.Max(r => r.Id) + 1;
+            return newRestaurant;
         }
 
         public Restaurant Update(Restaurant updatedRestaurant)
