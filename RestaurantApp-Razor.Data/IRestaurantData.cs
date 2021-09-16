@@ -8,6 +8,10 @@ namespace RestaurantApp_Razor.Data
     {
         IEnumerable<Restaurant> GetRestaurantsByName(string name);
         Restaurant GetById(int id);
+        // for OnPost method. Gets updated object and assigns it to the older one
+        Restaurant Update(Restaurant updatedRestaurant);
+        // similar to SaveChanges in ef core for in memory database. But is not implemented yet
+        int Commit();
     }
 
     public class InMemoryRestaurantData : IRestaurantData
@@ -24,6 +28,12 @@ namespace RestaurantApp_Razor.Data
             };
         }
 
+        // this method doesn't do anythings for now
+        public int Commit()
+        {
+            return 0;
+        }
+
         public Restaurant GetById(int id)
         {
             // returns single restaurant or default (null)
@@ -37,6 +47,20 @@ namespace RestaurantApp_Razor.Data
                    where string.IsNullOrEmpty(name) || r.Name.StartsWith(name)
                    orderby r.Name
                    select r;
+        }
+
+        public Restaurant Update(Restaurant updatedRestaurant)
+        {
+            // returns restaurant if id matches the updatedRestaurant id otherwise returns null
+            var restaurant = restaurants.SingleOrDefault(r => r.Id == updatedRestaurant.Id);
+            if(restaurant != null)
+            {
+                // updates values to the new updated values
+                restaurant.Name = updatedRestaurant.Name;
+                restaurant.Location = updatedRestaurant.Location;
+                restaurant.Cuisine = updatedRestaurant.Cuisine;
+            }
+            return restaurant;
         }
     }
 }
