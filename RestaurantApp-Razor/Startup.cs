@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -24,7 +25,14 @@ namespace RestaurantApp_Razor
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddSingleton<IRestaurantData, InMemoryRestaurantData>();
+            services.AddDbContextPool<RestaurantAppDbContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("RestaurantAppRazorDb"));
+            });
+                                                            
+            // Scoped objects are same within a request but different across different requests
+            // allows dbcontext to collect all changes needed during single request
+            services.AddScoped<IRestaurantData, SqlRestaurantData>();
             services.AddRazorPages();
         }
 

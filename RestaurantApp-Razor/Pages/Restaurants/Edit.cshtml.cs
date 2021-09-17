@@ -78,7 +78,7 @@ namespace RestaurantApp_Razor.Pages.Restaurants
                 TempData["Message"] = "New Restaurant Created!";
             }
 
-            // commit changes but isn't implemeted for now
+            // commit save changes to the database
             restaurantData.Commit(); 
 
             // we redirect to other page because if we show same page after update

@@ -13,3 +13,6 @@ D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\Re
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor.Data\obj\Debug\net5.0\RestaurantApp-Razor.Data.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor.Data\obj\Debug\net5.0\ref\RestaurantApp-Razor.Data.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor.Data\obj\Debug\net5.0\RestaurantApp-Razor.Data.pdb
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor.Data\bin\Debug\net5.0\RestaurantApp-Razor.Data.runtimeconfig.json
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor.Data\bin\Debug\net5.0\RestaurantApp-Razor.Data.runtimeconfig.dev.json
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor.Data\obj\Debug\net5.0\RestaurantApp-Razor.Data.genruntimeconfig.cache
