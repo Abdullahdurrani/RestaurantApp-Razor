@@ -79,3 +79,5 @@ D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\Re
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\Humanizer.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\Razor\Pages\Restaurants\Delete.cshtml.g.cs
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\Razor\Pages\Restaurants\_Summary.cshtml.g.cs
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\Razor\Pages\Shared\Components\RestaurantCount\Default.cshtml.g.cs

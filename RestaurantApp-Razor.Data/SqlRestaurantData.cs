@@ -47,6 +47,11 @@ namespace RestaurantApp_Razor.Data
             return dbContext.Restaurants.Find(id);
         }
 
+        public int GetCountOfRestaurants()
+        {
+            return dbContext.Restaurants.Count();
+        }
+
         public IEnumerable<Restaurant> GetRestaurantsByName(string name)
         {
             var query = from r in dbContext.Restaurants

@@ -17,6 +17,8 @@ namespace RestaurantApp_Razor.Data
 
         Restaurant Delete(int id);
 
+        int GetCountOfRestaurants();
+
         // saves changes to the database
         int Commit();
     }

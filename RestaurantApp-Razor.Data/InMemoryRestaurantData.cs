@@ -72,5 +72,10 @@ namespace RestaurantApp_Razor.Data
             }
             return restaurant;
         }
+
+        public int GetCountOfRestaurants()
+        {
+            return restaurants.Count();
+        }
     }
 }
