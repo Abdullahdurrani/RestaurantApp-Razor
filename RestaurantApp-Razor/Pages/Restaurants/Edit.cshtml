@@ -1,5 +1,5 @@
-﻿@page "{restaurantId:int?}" 
-        @* id is set optional because we are using same page for create functionality *@
+﻿@page "{restaurantId:int?}"
+@* id is set optional because we are using same page for create functionality *@
 @model RestaurantApp_Razor.Pages.Restaurants.EditModel
 @{
 }
@@ -38,3 +38,10 @@
     <a asp-page="List" class="btn btn-primary">Cancel</a>
 
 </form>
+
+@* Scripts is a section defined in layout
+    it is defined so that if any page wants to implement its own scripts
+    and ValidationScriptsPartial contains all the links to implement the client side validation *@
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
