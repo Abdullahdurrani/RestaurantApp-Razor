@@ -32,7 +32,9 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
-            @await Component.InvokeAsync("RestaurantCount")
+
+            @*@await Component.InvokeAsync("RestaurantCount")*@
+            <vc:restaurant-count></vc:restaurant-count>
         </main>
     </div>
 

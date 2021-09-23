@@ -22,8 +22,9 @@ namespace RestaurantApp_Razor.ViewComponents
         // Pages/Shared/Components/RestaurantCount/Default
         public IViewComponentResult Invoke()
         {
+            string MyView = "Default";
             var count = restaurantData.GetCountOfRestaurants();
-            return View(count);
+            return View(MyView, count);
         }
     }
 }
