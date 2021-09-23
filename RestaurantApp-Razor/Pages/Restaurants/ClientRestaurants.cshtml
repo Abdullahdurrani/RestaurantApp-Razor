@@ -1,0 +1,22 @@
+﻿@page
+@model RestaurantApp_Razor.Pages.Restaurants.ClientRestaurantsModel
+@{
+    ViewData["Title"] = "ClientRestaurants";
+}
+
+<h2>Client Restaurants</h2>
+
+@section Scripts {
+    <script>
+        // setting api endpoint as api/restaurants.
+        // when a get method is invoked at the endpoint 
+        // the function will return restaurants objects in json format as response
+        $(function () {
+            $.ajax("/api/restaurants",
+                { method: "get" })
+                .then(function (response) {
+                      console.dir(response);
+                });
+        });
+    </script>
+}
