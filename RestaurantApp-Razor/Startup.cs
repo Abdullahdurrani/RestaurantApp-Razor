@@ -29,11 +29,12 @@ namespace RestaurantApp_Razor
             {
                 options.UseSqlServer(Configuration.GetConnectionString("RestaurantAppRazorDb"));
             });
-                                                            
+
             // Scoped objects are same within a request but different across different requests
             // allows dbcontext to collect all changes needed during single request
-            services.AddScoped<IRestaurantData, SqlRestaurantData>();
-            services.AddRazorPages();
+               services.AddScoped<IRestaurantData, SqlRestaurantData>();
+            // services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
+             services.AddRazorPages();
             //services.AddControllers();
         }
 
