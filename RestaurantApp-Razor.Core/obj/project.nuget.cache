@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "XvfwAiqCjCHKgmDi7lyUnCDskFxZCaa0dZuZ4mJQ3VJqVTYEInNtUGhuNlW2YHq7Sm3vmXye+IV7/nawqmVcNQ==",
+  "dgSpecHash": "J8QOlYWtod5OsnF5Hf9upDPsOuX6sYL855MFDCjElPeQrEp2B5/jizgh2GWOxg+0S459nLHQmWwgsWjzliGjeQ==",
   "success": true,
   "projectFilePath": "D:\\abdullah\\Development\\C#\\Asp.net core\\Pluralsight\\Asp.net Core Fundamentals\\RestaurantApp-Razor\\RestaurantApp-Razor.Core\\RestaurantApp-Razor.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.10\\microsoft.netcore.app.runtime.win-x64.5.0.10.nupkg.sha512",
+    "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.10\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.10.nupkg.sha512",
+    "C:\\Users\\Abdullah\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.10\\microsoft.aspnetcore.app.runtime.win-x64.5.0.10.nupkg.sha512"
+  ],
   "logs": []
 }

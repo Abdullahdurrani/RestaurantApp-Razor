@@ -494,3 +494,4 @@ D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\Re
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\win-x64\ref\RestaurantApp-Razor.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\win-x64\RestaurantApp-Razor.pdb
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\win-x64\RestaurantApp-Razor.genruntimeconfig.cache
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\win-x64\appsettings.Production.json

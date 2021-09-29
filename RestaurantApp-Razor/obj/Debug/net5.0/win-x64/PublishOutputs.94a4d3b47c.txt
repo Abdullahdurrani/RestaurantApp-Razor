@@ -84,6 +84,7 @@ c:\temp\restaurantapp_razor\wwwroot\lib\jquery\dist\jquery.min.map
 c:\temp\restaurantapp_razor\wwwroot\lib\jquery\LICENSE.txt
 c:\temp\restaurantapp_razor\appsettings.Development.json
 c:\temp\restaurantapp_razor\appsettings.json
+c:\temp\restaurantapp_razor\appsettings.Production.json
 c:\temp\restaurantapp_razor\libman.json
 c:\temp\restaurantapp_razor\RestaurantApp-Razor.dll
 c:\temp\restaurantapp_razor\RestaurantApp-Razor.runtimeconfig.json

@@ -1,6 +1,6 @@
-D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.csproj.AssemblyReference.cache
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\appsettings.Development.json
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\appsettings.json
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\appsettings.Production.json
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\libman.json
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\RestaurantApp-Razor.exe
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\RestaurantApp-Razor.deps.json
@@ -121,6 +121,7 @@ D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\Re
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\RestaurantApp-Razor.Data.dll
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\RestaurantApp-Razor.Data.pdb
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\bin\Debug\net5.0\RestaurantApp-Razor.Core.pdb
+D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.csproj.AssemblyReference.cache
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.GeneratedMSBuildEditorConfig.editorconfig
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.AssemblyInfoInputs.cache
 D:\abdullah\Development\C#\Asp.net core\Pluralsight\Asp.net Core Fundamentals\RestaurantApp-Razor\RestaurantApp-Razor\obj\Debug\net5.0\RestaurantApp-Razor.AssemblyInfo.cs

@@ -33,7 +33,7 @@ namespace RestaurantApp_Razor
             // Scoped objects are same within a request but different across different requests
             // allows dbcontext to collect all changes needed during single request
                services.AddScoped<IRestaurantData, SqlRestaurantData>();
-            // services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
+           //  services.AddScoped<IRestaurantData, InMemoryRestaurantData>();
              services.AddRazorPages();
             //services.AddControllers();
         }
